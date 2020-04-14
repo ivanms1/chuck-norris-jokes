@@ -1,0 +1,50 @@
+.SettingsForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.Inputs {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.Inputs > div {
+  margin-right: 2rem;
+}
+
+.Inputs > div > label {
+  margin-right: 1rem;
+}
+
+.PersonalizeContainer {
+  display: flex;
+  align-items: stretch;
+}
+
+.PersonalizeButton {
+  cursor: pointer;
+  text-decoration: underline;
+  margin-right: 1rem;
+}
+
+.PersonalizeButton:hover {
+  color: grey;
+}
+
+.PersonalizeInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.PersonalizeInput:not(:last-child) {
+  margin-bottom: 0.3rem;
+}
+
+.PersonalizeInput > label {
+  display: inline-block;
+  min-width: 7rem;
+}
+
+.SubmitButton {
+  min-width: 120px;
+}

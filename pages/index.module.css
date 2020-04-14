@@ -1,0 +1,11 @@
+.Container {
+  padding: 3rem 5rem;
+}
+
+.Container > p {
+  margin-bottom: 2rem;
+}
+
+.Joke {
+  margin-bottom: 1rem;
+}
