@@ -17,7 +17,7 @@ const Home = () => {
       category === 'all' ? ['nerdy', 'implicit'] : [category];
     setLoading(true);
     const res = await fetch(
-      `http://api.icndb.com/jokes/random/${jokeNumber}?limitTo=${formatttedCategories}&firstName=${firstName}&lastName=${lastName}&escape=javascript`
+      `https://api.icndb.com/jokes/random/${jokeNumber}?limitTo=${formatttedCategories}&firstName=${firstName}&lastName=${lastName}&escape=javascript`
     );
     const data = await res.json();
     setJokes(data.value);
