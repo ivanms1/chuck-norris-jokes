@@ -21,12 +21,6 @@
   align-items: stretch;
 }
 
-.PersonalizeButton {
-  cursor: pointer;
-  text-decoration: underline;
-  margin-right: 1rem;
-}
-
 .PersonalizeButton:hover {
   color: grey;
 }
@@ -47,4 +41,19 @@
 
 .SubmitButton {
   min-width: 120px;
+}
+
+@media only screen and (max-width: 800px) {
+  .Inputs {
+    flex-direction: column;
+  }
+
+  .Inputs > div {
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+
+  .PersonalizeInput:not(:last-child) {
+    margin-bottom: 1rem;
+  }
 }

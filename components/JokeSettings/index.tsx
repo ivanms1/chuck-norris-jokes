@@ -74,7 +74,7 @@ const JokeSettings = ({ handleSubmit }: JokeSettingsProps) => {
                 name='lastName'
                 value={jokeSettings.lastName}
                 onChange={(e) => handleChange(e)}
-                id='firstName'
+                id='lastName'
                 type='text'
               />
             </div>
