@@ -43,19 +43,6 @@ const JokeSettings = ({ handleSubmit }: JokeSettingsProps) => {
             type='number'
           />
         </div>
-        <div>
-          <label htmlFor='category'>Which Category</label>
-          <select
-            name='category'
-            value={jokeSettings.category}
-            onChange={(e) => handleChange(e)}
-            id='category'
-          >
-            <option value='all'>All</option>
-            <option value='nerdy'>Nerdy</option>
-            <option value='explicit'>Explicit</option>
-          </select>
-        </div>
         <div className={styles.PersonalizeContainer}>
           <div className={styles.PersonalizeInputs}>
             <div className={styles.PersonalizeInput}>
